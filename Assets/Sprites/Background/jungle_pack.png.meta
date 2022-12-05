@@ -90,7 +90,7 @@ TextureImporter:
       213: -7338562770437474792
     second: jungle_pack_28
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -110,8 +110,6 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
-  vTOnly: 0
-  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -121,8 +119,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: 1
-    mipBias: 0
+    aniso: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -143,14 +141,10 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
-  flipbookRows: 1
-  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -202,18 +196,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -846,36 +828,6 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      jungle_pack_8: -3049176962061356133
-      jungle_pack_0: -4726282636733037633
-      jungle_pack_26: 6069001392609402531
-      jungle_pack_12: 5163062870432186091
-      jungle_pack_3: -8718769459707583799
-      jungle_pack_11: -7252540624148365336
-      jungle_pack_15: -4538725989274084689
-      jungle_pack_1: -4721627607472644474
-      jungle_pack_25: -2477571116247668599
-      jungle_pack_4: 8429467227396420836
-      jungle_pack_20: 8335462726498404468
-      jungle_pack_28: -7338562770437474792
-      jungle_pack_24: -6819293976966279942
-      jungle_pack_13: -512627785098986777
-      jungle_pack_18: 225285937144897185
-      jungle_pack_9: -3741352786896584127
-      jungle_pack_17: -8523902387606404462
-      jungle_pack_5: 3906573405345924942
-      jungle_pack_10: 4992265582850515204
-      jungle_pack_16: 7267150106316118379
-      jungle_pack_19: -3619846257178574626
-      jungle_pack_2: 7872832443114483845
-      jungle_pack_22: -4841303350626355355
-      jungle_pack_7: -5987822790608115799
-      jungle_pack_27: 1112964068279339060
-      jungle_pack_23: 8619492880626277862
-      jungle_pack_21: -5995266916093692724
-      jungle_pack_14: -1078280123925712519
-      jungle_pack_6: -3915380636100324678
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

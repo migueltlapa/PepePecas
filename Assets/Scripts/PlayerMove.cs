@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour {
 /* ************************************************************ */
 public Rigidbody2D playerRb;
+// public static PlayerMove Instance;
 public float speed = 3.5f;
 public float  jumpSpeed = 250f;
 public bool isGrounded = true;
